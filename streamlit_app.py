@@ -19,4 +19,4 @@ with st.expander('Data'):
   y
 
 with st.expander('Data Viz'):
-st.scatter_chart(data=df, x='Rainfall', y='Humidity3pm', color='Rainfall')
+  st.scatter_chart(data=df, x='Rainfall', y='Humidity3pm', color='Rainfall')
