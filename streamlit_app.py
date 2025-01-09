@@ -5,5 +5,5 @@ st.title('🌧️ Predict Rainfall')
 
 st.info(' This app uses a machine learning model to predict rainfall')
 
-df = pd.read_csv('https://github.com/daudisraf/weatherAUS/blob/main/weatherAUS.csv')
-print(df.head())
+df = pd.read_csv('https://raw.githubusercontent.com/daudisraf/weatherAUS/refs/heads/main/weatherAUS.csv')
+df
