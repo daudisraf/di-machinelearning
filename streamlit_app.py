@@ -18,5 +18,5 @@ with st.expander('Data'):
   y = df.RainTomorrow
   y
 
-with st.expander('Data Viz')
+with st.expander('Data Viz'):
 st.scatter_chart(data=df, x='Rainfall', y='Humidity3pm', color='Rainfall')
