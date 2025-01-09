@@ -10,10 +10,10 @@ with st.expander('Data'):
   df = pd.read_csv('https://raw.githubusercontent.com/daudisraf/weatherAUS/refs/heads/main/cleaned2_weatherAUS.csv')
   df
 
-  st.write('**X**')
+  st.write('**X = Features**')
   X = df.drop('RainTomorrow', axis=1)
   X
 
-  st.write('**y**')
+  st.write('**y = Target**')
   y = df.RainTomorrow
   y
