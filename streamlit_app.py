@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
+from matplotlib.patches import Arc
 
 # Set up the figure and axes
 fig, ax = plt.subplots(figsize=(10, 6))
