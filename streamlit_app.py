@@ -24,3 +24,7 @@ with st.expander('Data'):
 
 with st.expander('Data Viz'):
   st.scatter_chart(data=df, x='Rainfall', y='Humidity3pm', color='Rainfall')
+
+# Data Prep
+with st.sidebar:
+  st.header('Input Features')
