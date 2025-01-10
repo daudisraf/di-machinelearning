@@ -39,6 +39,17 @@ with st.sidebar:
   Pressure3p = st.slider('Atm Pressure at 3pm (hPa)', 500, 1100, 900)
   Cloud9a = st.slider('Cloud Cover at 9am (okta)', 0, 8, 3)
   Cloud3p = st.slider('Cloud Cover at 3pm  (okta)', 0, 8, 3)
+
+  # Creat a df with the input features
+
+  data = {'Min Temperature': MinTemp,
+        'Max Temperature': MaxTemp}
+  input_df = pd.DataFrame(data, index=[0])
+  input_features = pd.concat([input_df, X], axis=0)
+
+input_df
+
+        
   
 
   
