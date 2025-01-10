@@ -32,6 +32,7 @@ with st.sidebar:
   MaxTemp = st.slider('Max Temperature (Celsius)', -10, 50, 30)
   Temp9a = st.slider('Temperature at 9am (Celsius)', -10, 50, 30)
   Temp3p = st.slider('Temperature at 3pm (Celsius)', -10, 50, 30)
+  WindGustspeed = st.slider('Wind Gust Speed (km/hr)', 0, 500, 30)
   
 
   
