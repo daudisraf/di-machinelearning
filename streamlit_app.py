@@ -30,6 +30,8 @@ with st.sidebar:
   st.header('Input Features')
   MinTemp = st.slider('Min Temperature (Celsius)', -10, 50, 30)
   MaxTemp = st.slider('Max Temperature (Celsius)', -10, 50, 30)
+  Temp9a = st.slider('Temperature at 9am (Celsius)', -10, 50, 30)
+  Temp3p = st.slider('Temperature at 3pm (Celsius)', -10, 50, 30)
   
 
   
