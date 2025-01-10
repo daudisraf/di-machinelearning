@@ -33,6 +33,12 @@ with st.sidebar:
   Temp9a = st.slider('Temperature at 9am (Celsius)', -10, 50, 30)
   Temp3p = st.slider('Temperature at 3pm (Celsius)', -10, 50, 30)
   WindGustspeed = st.slider('Wind Gust Speed (km/hr)', 0, 500, 30)
+  Humidity9a = st.slider('Humidity at 9am (km/hr)', 0, 100, 50)
+  Humidity3p = st.slider('Humidity at 3pm (km/hr)', 0, 100, 50)
+  Pressure9a = st.slider('Atm Pressure at 9am (km/hr)', 500, 1100, 900)
+  Pressure3p = st.slider('Atm Pressure at 3pm (km/hr)', 500, 1100, 900)
+  Cloud9a = st.slider('Cloud Cover at 9am (okta)', 0, 8, 3)
+  Cloud3p = st.slider('Cloud Cover at 3pm  (okta)', 0, 8, 3)
   
 
   
