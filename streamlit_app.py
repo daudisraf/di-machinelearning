@@ -28,7 +28,7 @@ with st.expander('Data Viz'):
 # Data Prep
 with st.sidebar:
   st.header('Input Features')
-  MinTemp = st.selectbox('Min Temperature')
+  MinTemp = st.slider('Min Temperature (Celsius)', -10, 50, 30)
   
 
   
