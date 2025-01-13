@@ -43,7 +43,11 @@ with st.sidebar:
   # Creat a df with the input features
 
   data = {'Min Temperature': MinTemp,
-        'Max Temperature': MaxTemp}
+        'Max Temperature': MaxTemp. 'Temperature': MinTemp,
+        'Max Temperature': MaxTemp
+         
+         
+         }
   input_df = pd.DataFrame(data, index=[0])
   input_features = pd.concat([input_df, X], axis=0)
 
